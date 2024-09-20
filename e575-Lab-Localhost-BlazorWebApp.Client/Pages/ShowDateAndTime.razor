@@ -1,0 +1,22 @@
+﻿
+
+<button class="btn btn-primary" @onclick="SetDateAndTime">Click Me</button>
+
+<br />
+
+<br />
+
+<br />
+
+@_mensagem
+
+@code {
+
+    private string _mensagem = String.Empty;
+
+    private void SetDateAndTime()
+    {
+        _mensagem = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
+    }
+
+}
