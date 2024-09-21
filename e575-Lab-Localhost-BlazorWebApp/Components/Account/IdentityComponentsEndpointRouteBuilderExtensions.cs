@@ -1,6 +1,6 @@
-using e575_Lab_Localhost_BlazorWebApp.Components.Account.Pages;
-using e575_Lab_Localhost_BlazorWebApp.Components.Account.Pages.Manage;
-using e575_Lab_Localhost_BlazorWebApp.Data;
+using e575.BlazorWebApp.Components.Account.Pages;
+using e575.BlazorWebApp.Components.Account.Pages.Manage;
+using e575.BlazorWebApp.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;

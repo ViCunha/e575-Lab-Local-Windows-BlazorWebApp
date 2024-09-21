@@ -1,4 +1,4 @@
-using e575_Lab_Localhost_BlazorWebApp.Client;
+using e575.BlazorWebApp.Client;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

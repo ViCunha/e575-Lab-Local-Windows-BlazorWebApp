@@ -1,8 +1,8 @@
-using e575_Lab_Localhost_BlazorWebApp.Data;
+using e575.BlazorWebApp.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-namespace e575_Lab_Localhost_BlazorWebApp.Components.Account
+namespace e575.BlazorWebApp.Components.Account
 {
     // Remove the "else if (EmailSender is IdentityNoOpEmailSender)" block from RegisterConfirmation.razor after updating with a real implementation.
     internal sealed class IdentityNoOpEmailSender : IEmailSender<ApplicationUser>

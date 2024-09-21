@@ -1,7 +1,7 @@
-using e575_Lab_Localhost_BlazorWebApp.Data;
+using e575.BlazorWebApp.Data;
 using Microsoft.AspNetCore.Identity;
 
-namespace e575_Lab_Localhost_BlazorWebApp.Components.Account
+namespace e575.BlazorWebApp.Components.Account
 {
     internal sealed class IdentityUserAccessor(UserManager<ApplicationUser> userManager, IdentityRedirectManager redirectManager)
     {

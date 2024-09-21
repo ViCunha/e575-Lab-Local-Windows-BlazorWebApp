@@ -1,7 +1,7 @@
-using e575_Lab_Localhost_BlazorWebApp.Client.Pages;
-using e575_Lab_Localhost_BlazorWebApp.Components;
-using e575_Lab_Localhost_BlazorWebApp.Components.Account;
-using e575_Lab_Localhost_BlazorWebApp.Data;
+using e575.BlazorWebApp.Client.Pages;
+using e575.BlazorWebApp.Components;
+using e575.BlazorWebApp.Components.Account;
+using e575.BlazorWebApp.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -60,7 +60,7 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(e575_Lab_Localhost_BlazorWebApp.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(e575.BlazorWebApp.Client._Imports).Assembly);
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();

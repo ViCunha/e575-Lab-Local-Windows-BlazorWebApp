@@ -4,18 +4,21 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-e575-Lab-Localhost-BlazorWebApp-886b25cd-5dfa-4bea-81c2-2d53574303b8</UserSecretsId>
-    <RootNamespace>e575-Lab-Localhost-BlazorWebApp</RootNamespace>
+    <UserSecretsId>aspnet-e575-BlazorWebApp-886b25cd-5dfa-4bea-81c2-2d53574303b8</UserSecretsId>
+    <RootNamespace>e575.BlazorWebApp</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\e575-Lab-Localhost-BlazorWebApp.Client\e575-Lab-Localhost-BlazorWebApp.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\e575-Lab-Localhost-BlazorWebApp.Client\e575.BlazorWebApp.Client.csproj" />
   </ItemGroup>
 
 </Project>

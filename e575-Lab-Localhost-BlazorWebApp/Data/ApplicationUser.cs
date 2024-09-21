@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace e575_Lab_Localhost_BlazorWebApp.Data
+namespace e575.BlazorWebApp.Data
 {
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser

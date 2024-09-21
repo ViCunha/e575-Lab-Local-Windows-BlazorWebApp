@@ -3,7 +3,7 @@ using System;
 
 #nullable disable
 
-namespace e575_Lab_Localhost_BlazorWebApp.Migrations
+namespace e575.BlazorWebApp.Migrations
 {
     /// <inheritdoc />
     public partial class CreateIdentitySchema : Migration

@@ -1,5 +1,5 @@
-using e575_Lab_Localhost_BlazorWebApp.Client;
-using e575_Lab_Localhost_BlazorWebApp.Data;
+using e575.BlazorWebApp.Client;
+using e575.BlazorWebApp.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Options;
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace e575_Lab_Localhost_BlazorWebApp.Components.Account
+namespace e575.BlazorWebApp.Components.Account
 {
     // This is a server-side AuthenticationStateProvider that revalidates the security stamp for the connected user
     // every 30 minutes an interactive circuit is connected. It also uses PersistentComponentState to flow the
